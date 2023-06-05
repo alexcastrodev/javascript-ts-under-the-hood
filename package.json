@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc index2.tsx --jsx react-jsx"
+    "build:jsx": "npx tsc jsx/index.tsx --jsx react-jsx",
+    "build:class": "npx tsc classes/index.ts",
+    "build:decorator": "npx tsc decorators/index.ts --experimentalDecorators --emitDecoratorMetadata"
   },
   "keywords": [],
   "author": "",
