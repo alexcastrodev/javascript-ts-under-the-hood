@@ -7,7 +7,8 @@
     "build:jsx": "npx tsc jsx/index.tsx --jsx react-jsx",
     "build:class": "npx tsc classes/index.ts",
     "build:decorator": "npx tsc decorators/index.ts --experimentalDecorators --emitDecoratorMetadata",
-    "build:enums": "npx tsc enums_are_objects/index.ts"
+    "build:enums": "npx tsc enums_are_objects/index.ts",
+    "build:provider": "npx tsc providers/index.tsx --jsx react-jsx"
   },
   "keywords": [],
   "author": "",
