@@ -1,7 +1,8 @@
 const getResource = () => {
+    console.log('Xumbrela')
     return {
         [Symbol.dispose]: () => {
-            console.log('uhu, vai brasil')
+            console.log('No Breu')
         }
     }
 }

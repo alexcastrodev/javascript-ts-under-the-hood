@@ -10,6 +10,7 @@
     "build:enums": "npx tsc enums_are_objects/index.ts",
     "build:provider": "npx tsc providers/index.tsx --jsx react-jsx",
     "build:using": "npx tsc using_keyword/index.ts",
+    "build:symbols": "npx tsc Symbols/index.ts",
     "build:pipe": "npx tsc pipe/index.ts",
     "build:pipe:babel": "babel pipe/index_babel.ts --out-file pipe/index_babel.js"
   },
@@ -23,6 +24,6 @@
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
     "react": "^18.2.0",
-    "typescript": "^5.1.3"
+    "typescript": "5.2.0@beta"
   }
 }
