@@ -25,5 +25,8 @@
     "@babel/preset-typescript": "^7.22.5",
     "react": "^18.2.0",
     "typescript": "5.2.0@beta"
+  },
+  "dependencies": {
+    "@types/node": "^20.3.3"
   }
 }
