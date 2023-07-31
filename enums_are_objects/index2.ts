@@ -1,4 +1,4 @@
-enum Color {
+const enum Color {
     Primary = '#FF0000',
 }
 

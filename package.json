@@ -8,6 +8,7 @@
     "build:class": "npx tsc classes/index.ts",
     "build:decorator": "npx tsc decorators/index.ts --experimentalDecorators --emitDecoratorMetadata",
     "build:enums": "npx tsc enums_are_objects/index.ts",
+    "build:enums2": "npx tsc enums_are_objects/index2.ts",
     "build:provider": "npx tsc providers/index.tsx --jsx react-jsx",
     "build:types_unknown": "npx tsc never_void_any_unknown/index.ts",
     "build:conditional_chaining": "npx tsc conditional_chaining/index.ts",
