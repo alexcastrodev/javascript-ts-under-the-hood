@@ -12,6 +12,7 @@
     "build:provider": "npx tsc providers/index.tsx --jsx react-jsx",
     "build:types_unknown": "npx tsc never_void_any_unknown/index.ts",
     "build:conditional_chaining": "npx tsc conditional_chaining/index.ts",
+    "build:operators": "npx tsc operators_nullish/*.ts",
     
     "build:using": "npx tsc using_keyword/index.ts",
     "build:symbols": "npx tsc Symbols/index.ts",
