@@ -1,0 +1,19 @@
+{
+  "name": "ts_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:type_predicates:is": "npx tsc type_predicates/using_is.ts",
+    "build:type_predicates:as": "npx tsc type_predicates/using_as.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "7.0.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.3.3"
+  }
+}
