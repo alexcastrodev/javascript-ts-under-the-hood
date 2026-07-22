@@ -18,3 +18,5 @@ function handle(animal: Animal) {
 const dog: Animal = { kind: "dog", bark: () => console.log("woof") };
 
 handle(dog);
+
+export {};
