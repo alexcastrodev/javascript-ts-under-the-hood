@@ -10,6 +10,7 @@
     "build:enums": "npx tsc enums_are_objects/index.ts",
     "build:enums2": "npx tsc enums_are_objects/index2.ts",
     "build:declare": "npx tsc declare_attribute_class/index.ts",
+    "build:financial_number": "npx tsc financial_number/index.ts",
     "build:provider": "npx tsc providers/index.tsx --jsx react-jsx",
     "build:types_unknown": "npx tsc never_void_any_unknown/index.ts",
     "build:conditional_chaining": "npx tsc conditional_chaining/index.ts",
@@ -30,7 +31,7 @@
     "@babel/preset-env": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
     "react": "^18.2.0",
-    "typescript": "5.2.0@beta"
+    "typescript": "5.2.2"
   },
   "dependencies": {
     "@types/node": "^20.3.3"

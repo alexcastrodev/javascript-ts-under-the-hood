@@ -35,6 +35,30 @@ yarn build:class
 npx tsc classes/index.ts
 ```
 
+## Financial Number
+
+### Build
+
+```bash
+# Build the project
+yarn build:financial_number
+# Or
+npx tsc "typescript 5/financial_number/index.ts"
+```
+
+### Using
+
+```typescript
+import { FinancialNumber } from './typescript 5/financial_number/index';
+
+const financialNumber = new FinancialNumber();
+
+financialNumber.format(1234567.456); // "1 234 567,46"
+financialNumber.parse('1 234 567,89'); // 1234567.89
+financialNumber.clean('1 234,56'); // "1234,56"
+financialNumber.input('1234,5'); // "1 234,5"
+```
+
 
 ## Decorators
 
